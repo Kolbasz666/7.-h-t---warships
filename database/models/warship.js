@@ -42,10 +42,6 @@ const table = dbHandler.define('warship',{
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    countryId:{
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
     divisionId:{
         type: DataTypes.INTEGER,
         allowNull: false

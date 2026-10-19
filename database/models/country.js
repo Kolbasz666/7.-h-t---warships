@@ -14,14 +14,11 @@ const table = dbHandler.define('country',{
         type: DataTypes.STRING,
         allowNull: false
     },
-    username:{
+    userId:{
         type: DataTypes.STRING,
         allowNull: false
     },
-    password:{
-        type: DataTypes.STRING,
-        allowNull: false
-    },
+    
 },{
     tableName: 'country'
 })

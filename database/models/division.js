@@ -14,15 +14,11 @@ const table = dbHandler.define('division',{
         type: DataTypes.STRING,
         allowNull: false
     },
-    username:{
-        type: DataTypes.STRING,
-        allowNull: false
-    },
-    password:{
-        type: DataTypes.STRING,
-        allowNull: false
-    },
     countryId:{
+        type: DataTypes.INTEGER,
+        allowNull: false
+    },
+    userId:{
         type: DataTypes.INTEGER,
         allowNull: false
     },

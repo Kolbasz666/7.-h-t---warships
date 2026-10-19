@@ -4,6 +4,9 @@ const express = require('express')
 const Auth = require('../middleware/Auth')
 const country = require('../database/models/country')
 const division = require('../database/models/division')
+const user = require('../database/models/user')
+const warship = require('../database/models/warship')
+
 
 const SK = process.env.SECRET_KEY
 const router = express.Router()

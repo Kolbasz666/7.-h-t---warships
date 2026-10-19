@@ -11,4 +11,4 @@ const dbHandler = new Sequelize(DB_NAME, DB_USER, '', {
     host: HOST
 })
 
-export default { dbHandler, DataTypes }
+module.exports = { dbHandler, DataTypes }
